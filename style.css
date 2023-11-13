@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Urbanist:ital,wght@0,400;1,100&display=swap');
+
+#homeButton, #backButton {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0.5em;
+  border-radius: 0.5em;
+}
+
+#homeButton:hover, #backButton:hover {
+  background-color: #0057b4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0.5em;
+  border-radius: 1em;
+}
+
+body {
+  background: radial-gradient(circle, #55729a, #c4ccff, #55729a);
+  color: #ffffff;
+  font-family: "Urbanist", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+div.container {
+  box-sizing: border-box;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+
+h1 {
+  font-family: "urbanist", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  justify-self: center;
+  margin-top: 3rem;
+  padding: 0;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+div.a, div.b, div.c, div.d, div.e {
+  background-color: #8EFFFF; 
+  width: 90px; 
+  height: 90px; 
+}
+
+div.f, div.g, div.h, div.i, div.j {
+  background-color: #00335E; 
+  width: 80px; 
+  height: 80px; 
+}
+
+div.k, div.l, div.m, div.n, div.o { 
+  background-color: #83B6FF; 
+  width: 100px;
+  height: 100px; 
+}
+
+div.p, div.q, div.r, div.s, div.t {
+  background-color: #0056C9;
+  width: 90px; 
+  height: 90px; 
+}
+
+
+div.balls {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+.balls div {
+  position: absolute;
+  border-radius: 50%;
+  animation: bounce 2s infinite ease-in-out;
+  top: 0;
+  z-index: -1;
+}
+
+.menu {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.menu h1{
+  height: 50vh;
+  /* margin-top: 30vh; */
+}
+
+
+
+/* Style the button container */
+.button-container {
+  display: flex;
+  height: 100vh;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+}
+
+/* Style the buttons */
+.knopf {
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  font-size: 40px;
+  padding: 4rem 2rem;
+  margin: 0rem;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  width: auto;
+}
+
+.menu div {
+  width: 95%;
+}
+
+.knopf{
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  border: solid 0.1rem #ffffff;
+  margin: 2rem;
+  padding: 7rem;
+  width: 60%;
+}
+
+
+
+/* Style the button hover state */
+.knopf:hover {
+  background: linear-gradient(to bottom, #383b6b, #c4ccff);
+  color: white;
+  border-radius: 1rem;
+  border: none;
+}
+
+.menu p{
+  font-size: 1.5rem;
+  font-family: "Urbanist", sans-serif;
+  color: #ffffff;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+.karten {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 1rem auto;
+  position: relative;
+}
+
+.karte {
+  flex-basis: calc(33.33% - 10px); /* 33.33% Breite abzüglich des Abstands zwischen den Karten (10px) */
+  opacity: 0.97;
+  border-radius: 4rem;
+  font-size: 25pt;
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-top: 30px; /* Abstand zwischen den Karten */
+  box-sizing: border-box; /* Berücksichtigt die Ränder und Polsterungen in der Breite */
+  text-align: center;
+  transition: ease-in-out 0.3s;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  max-width: 350px;
+  max-height: 350px;
+  
+}
+
+.karte:hover{
+  opacity: 1;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.container{
+  position: relative;
+  flex: 1
+}
+
+[data-aos="ud-custom-spin"] {
+  opacity: 0;
+  transform: rotate(-180deg);
+
+  &.aos-animate {
+    opacity: 1;
+    transform: rotate(0deg);
+  } }
+
+textpath.curvetext {
+  font-size: 1.27rem;
+  font-family: "Urbanist", sans-serif;
+  text-shadow: #fcfcfc 0.1em 0.1em 0.1em;
+}
+
+.curveblock{
+  margin-bottom: -100vh;
+  margin-top: 5vh;
+}
