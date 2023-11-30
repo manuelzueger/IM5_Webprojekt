@@ -1,5 +1,5 @@
 # Mein IM5 Webprojekt
-Für mein IM5 Webprojekt habe ich mich dazu entschieden, eine simple click&scroll Webpage mit HTML, CSS und JS zu bauen.
+Nach anfänglichen Entscheidungsschwierigkeiten und zweifelhaftem Rumprobieren habe ich mich dazu entschieden, für mein IM5 Webprojekt eine simple click&scroll Webpage mit HTML, CSS und JS zu bauen. Und ich muss sagen: Es hat mehr Spass gemacht, als ursprünglich gedacht! Alles in allem bin ich sehr mit meiner Arbeit zufrieden und ich konnte einen gewissen Teil des Gelernten der vorhergehenden Semestern anwenden.
 
 ## Hilfsmittel
 
