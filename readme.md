@@ -26,7 +26,7 @@ Die farbigen Kreise im Hintergrund der Desktop-Version wurden mit Javascript ani
 
 ## Inhalt
 
-Der Titel "A.I. IN SWISS SPORTS-JOURNALISM" ist nur der Titel meiner Bachelorarbeit, wird in diesem Webprojekt aber nicht behandelt. Alle textlichen Inhalte der Seite wurden von ChatGPT generiert. Ich habe mich lediglich auf eine bestmögliche User-Experience fokussiert, welche durch Funktionalität und Gestaltung der Seiten gewährleistet werden soll.
+Der Titel "A.I. IN SWISS SPORTS-JOURNALISM" ist zwar das Thema meiner Bachelorarbeit, wird in diesem Webprojekt aber nicht tiefer behandelt. Alle textlichen Inhalte der Seite wurden von ChatGPT generiert. Ich habe mich lediglich auf eine bestmögliche User-Experience fokussiert, welche durch Funktionalität und Gestaltung der Seiten gewährleistet werden soll.
 
 ## Challenges
 
