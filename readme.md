@@ -44,5 +44,5 @@ Beim erstellen der Mobile-Version habe ich oft viel Zeit damit verschwendet, Inh
 
 ### Ordnung halten
 
-Ich habe, vorallem innerhalb des style.css files gegen Ende des Projekts eine ziemliche Unordnung festgestellt. Für mich machen die Namen und Inhalte Sinn, auch wenn einiges etwas unsauber gelöst scheint. Für eine Zusammenarbeit mit anderen aber, wäre mein Coding-System mit grosser Wahrscheinlichkeit eine grosse Herausforderung.
+Ich habe, vorallem innerhalb des style.css files gegen Ende des Projekts eine ziemliche Unordnung festgestellt. Für mich machen die Namen und Inhalte Sinn, auch wenn einiges etwas unsauber gelöst scheint. Für eine Zusammenarbeit mit anderen aber, wäre mein Coding-System mit hoher Wahrscheinlichkeit eine grosse Herausforderung.
 
