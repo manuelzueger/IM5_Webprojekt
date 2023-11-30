@@ -8,7 +8,22 @@
   cursor: pointer;
   margin: 0.5em;
   border-radius: 0.5em;
+  position: fixed;
+  z-index: 1;
 }
+
+#homeButton {
+  /* Other button styles */
+  top: 10px;
+  left: 10px;
+}
+
+#backButton {
+  /* Other button styles */
+  top: 10px;
+  left: 100px;
+}
+
 
 #homeButton:hover, #backButton:hover {
   background-color: #0057b4;
@@ -19,6 +34,7 @@
   margin: 0.5em;
   border-radius: 1em;
 }
+
 
 body {
   background: radial-gradient(circle, #55729a, #c4ccff, #55729a);
@@ -102,7 +118,7 @@ div.balls {
 
 .menu h1{
   height: 50vh;
-  /* margin-top: 30vh; */
+  margin-top: 25vh;
 }
 
 
@@ -119,6 +135,15 @@ div.balls {
   justify-content: center;
   align-items: center;
   max-width: 50%;
+}
+
+.button a{
+  margin-bottom: 30px;
+}
+
+.button_empty{
+  height: 30px;
+  margin-top: 400px;
 }
 
 /* Style the buttons */
@@ -139,11 +164,19 @@ div.balls {
   width: 95%;
 }
 
+#one{
+  margin-top: -150px;
+}
+
+#two{
+  margin-bottom: -300px;
+}
+
 .knopf{
   color: rgb(0, 0, 0);
   font-size: 3rem;
   border: solid 0.1rem #ffffff;
-  margin: 2rem;
+  margin: 1rem;
   padding: 7rem;
   width: 60%;
 }
@@ -223,6 +256,189 @@ textpath.curvetext {
 }
 
 .curveblock{
-  margin-bottom: -100vh;
-  margin-top: 5vh;
+  margin-bottom: -130vh;
+  margin-top: -3vh;
+}
+
+.div{
+  border: 20px solid red;
+  margin: 20px;
+}
+
+.paragraph{
+  flex-basis: calc(50% - 10px);
+  font-size: 30pt;
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-top: 30px; /* Abstand zwischen den Karten */
+  box-sizing: border-box; /* Berücksichtigt die Ränder und Polsterungen in der Breite */
+  transition: ease-in-out 0.3s;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  color: black;
+}
+
+
+.para_right{
+  text-align: right;
+}
+
+.last_para{
+  min-height: fit-content;
+}
+
+.subpage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 1rem auto;
+  position: relative
+}
+
+.subpage_h1{
+  font-size: 3rem;
+  margin-left: 27px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.scrolldown{
+  margin-top: -25%;
+  font-size: 30px;
+  margin-left: 50px;
+  color: black;
+}
+
+.flowtext{
+  font-size: 2rem;
+  font-family: "Urbanist", sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 50px;
+}
+
+.automated_news_img{
+  min-width: 80%;
+}
+
+.balls_automated{
+  opacity: 0.5;
+  z-index: -2;
+}
+
+.subtext{
+  font-size: 1.5rem;
+  font-family: "Urbanist", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  max-width: 80%;
+  align-self: center;
+}
+
+.flowsite{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2xl */
+@media (max-width: 390px) {
+  
+  body{
+    max-width: 390px;
+  }
+
+  .paragraph{
+    font-size: 21px;
+  }
+
+  .container{
+    display: none;
+  }
+  
+  .curveblock{
+    display: none;
+  }
+
+  .knopf{
+    font-size: 1.5rem;
+    padding: 3rem;
+    width: 80%;
+    margin: 2rem;
+    border-radius: 1rem;
+  }
+
+  h1{
+    font-size: 3rem;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+  }
+
+  .subpage_h1{
+    font-size: 2rem;
+    margin-bottom: -30px;
+    margin-top: 70px;
+    text-decoration: none;
+  }
+
+  .scrolldown
+
+  div.menu{
+    margin-bottom: 5rem;
+  }
+
+  .karten{
+    max-width: 100%;
+    box-sizing: content-box;
+  }
+
+  #two{
+    margin-bottom: 210px;
+  }
+
+  .flowtext{
+    font-size: 1.2rem;
+    margin: 20px;
+  }
+
+  .flowsite h1{
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  .automated_news_img{
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .subtext{
+    font-size: 1rem;
+    margin: 10px;
+    min-width: 95%
+  }
+
+  .scrolldown{
+    display: none;
+  }
+
+  .menu h1{
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+
+  .button_empty{
+   display: none;
+  }
 }
